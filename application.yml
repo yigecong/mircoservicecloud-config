@@ -5,9 +5,11 @@ spring:
 ---
 spring:
   profiles: dev
-  application: mircoservercloud-config-ygc-dev
+  application: 
+	name: mircoservercloud-config-ygc-dev
 
 ---
 spring:
   profiles: test
-  application: mircoservercloud-config-ygc-test
+  application:
+	name: mircoservercloud-config-ygc-test
