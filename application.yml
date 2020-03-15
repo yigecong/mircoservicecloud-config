@@ -1,0 +1,13 @@
+
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  prifiles: dev
+  application: mircoservercloud-config-ygc-dev
+
+---
+spring:
+  prifiles: test
+  application: mircoservercloud-config-ygc-test
