@@ -1,15 +1,14 @@
-
 spring:
   profiles:
     active: dev
 ---
 spring:
   profiles: dev
-  application: 
-	name: mircoservercloud-config-ygc-dev
+  application:
+    name: mircoservercloud-config-ygc-dev
 
 ---
 spring:
   profiles: test
   application:
-	name: mircoservercloud-config-ygc-test
+    name: mircoservercloud-config-ygc-test
