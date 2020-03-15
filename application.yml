@@ -4,10 +4,10 @@ spring:
     active: dev
 ---
 spring:
-  prifiles: dev
+  profiles: dev
   application: mircoservercloud-config-ygc-dev
 
 ---
 spring:
-  prifiles: test
+  profiles: test
   application: mircoservercloud-config-ygc-test
